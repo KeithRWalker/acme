@@ -1,0 +1,40 @@
+{
+  "types": [
+      {
+          "id": "type0",
+          "category": "category0",
+          "name": "Swords",
+          "description": "Sharp, and pointy objects made for chopping, slicing, and slashing"
+      },
+      {
+        "id": "type1",
+        "category": "category0",
+        "name": "Hammers/Maces",
+        "description": "Heavy, large, and strong objects made for smashing, bashing, and clashing"
+      },
+      {
+          "id": "type2",
+          "category": "category0",
+          "name": "Daggers",
+          "description": "Small, discreet, and deadly objects made for sneaking, stabbing, and all 'round devious purposes"
+      },
+      {
+        "id": "type0",
+        "category": "category1",
+        "name": "Bow/Arrows",
+        "description": "Silent, and deadly objects made for solving problems you don't want to get near"
+      },
+      {
+        "id": "type1",
+        "category": "category1",
+        "name": "Spells",
+        "description": "Deadly, and Ancient knowledge made only for the most enlightened individuals"
+      },
+      {
+        "id": "type2",
+        "category": "category1",
+        "name": "Guns",
+        "description": "Devastatingly deadly weapons made to drop even the biggest of foes."
+      }
+  ]
+}
