@@ -2,11 +2,13 @@ import categoriesData from '../../helpers/data/categoriesData';
 
 import typesData from '../../helpers/data/typesData';
 
+import productData from '../../helpers/data/productData';
+
 import util from '../../helpers/util';
 
-const cardDisplay = (arr) => {
+const cardDisplay = (ar) => {
   let cardSt = '';
-  arr.forEach((card) => {
+  ar.forEach((card) => {
     cardSt += '<div class="card">';
     cardSt += `<h1>${card.id}</ar>`;
     cardSt += `<h1>${card.name}</h1>`;
@@ -17,9 +19,8 @@ const cardDisplay = (arr) => {
 
 const initCategories = () => {
   categoriesData.loadCategories()
-    .then((cats) => {
-      console.error(cats.data.categories);
-      const catsA = cats.data.categories;
+    .then((resp) => {
+      const catsA = resp.data.categories;
       cardDisplay(catsA);
     })
     .catch(err => console.error('fuck', err));
@@ -27,11 +28,20 @@ const initCategories = () => {
 
 const initTypes = () => {
   typesData.loadTypes()
-    .then((types) => {
-      const typesA = types.data.types;
+    .then((resp) => {
+      const typesA = resp.data.types;
       cardDisplay(typesA);
     })
     .catch(err => console.error('types fuck', err));
 };
 
-export default { initCategories, initTypes };
+const initProducts = () => {
+  productData.getProducts()
+    .then((resp) => {
+      const allProducts = resp.data.products;
+      console.error(allProducts);
+    })
+    .catch(err => console.error('products FUCK', err));
+};
+
+export default { initCategories, initTypes, initProducts };
