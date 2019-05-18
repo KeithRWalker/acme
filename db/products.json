@@ -1,0 +1,130 @@
+{
+  "products": [{
+      "Frostmourne": {
+          "id": "product0",
+          "type": "type0",
+          "name": "Frostmourne",
+          "description": "Whomsoever takes up this blade shall wield power eternal. Just as the blade rends flesh, so must power scar the spirit.",
+          "img": "https://gamepedia.cursecdn.com/hearthstone_gamepedia/thumb/2/2b/Frostmourne_full.jpg/500px-Frostmourne_full.jpg"
+      },
+      "Blackblade": {
+        "id": "product1",
+        "type": "type0",
+        "name": "Blackblade",
+        "description": "It spilled the blood of one elder dragon. In your hands, it may yet taste another's.",
+        "img": "https://www.placecage.com/200/300"
+      },
+      "Thunderfury": {
+        "id": "product2",
+        "type": "type0",
+        "name": "Thunderfury, Blessed Blade of the Windseeker",
+        "description": "This ancient blade, imbued with unpredictable elemental energies, crossed vast universes and hidden dimensions before arriving in Sanctuary. Thunderfury seeks the hand of a true hero, one capable of safely wielding its awesome power.",
+        "img": "https://www.placecage.com/200/300"
+      },
+      "Sulfuras": {
+        "id": "product3",
+        "type": "type1",
+        "name": "Sulfuras, Hand of Ragnaros",
+        "description": "Sulfuras is the legendary hammer of the Fire Lord, Ragnaros. It is an enormous mace of flaming red elementium.",
+        "img": "https://www.placecage.com/200/300"
+      },
+      "Mjolnir": {
+        "id": "product4",
+        "type": "type1",
+        "name": "Mjolnir, Thor's Hammer",
+        "description": "Whosoever holds this hammer, if he be worthy, shall possess the power of Thor.",
+        "img": "https://www.placecage.com/200/300"
+      },
+      "Grond": {
+        "id": "product5",
+        "type": "type1",
+        "name": "Grond, The Hammer of The Underworld",
+        "description": "Great engines crawled across the field; and in the midst was a huge ram, great as a forest-tree a hundred feet in length, swinging on mighty chains. Long had it been forging in the dark smithies of Mordor, and its hideous head, founded of black steel, was shaped in the likeness of a ravening wolf; on it spells of ruin lay. Grond they named it, in memory of the Hammer of the Underworld of old. Great beasts drew it, orcs surrounded it, and behind walked mountain-trolls to wield it",
+        "img": "https://www.placecage.com/200/300"
+      },
+      "Catspaw": {
+        "id": "product6",
+        "type": "type2",
+        "name": "Catspaw",
+        "description": "You told our mother this knife belonged to Tyrion Lannister. But that was another one of your lies...it was yours.",
+        "img": "https://www.placecage.com/200/300"
+      },
+      "Blades_of_chaos": {
+        "id": "product7",
+        "type": "type2",
+        "name": "Blades of Chaos",
+        "description": "The Blades of Chaos, forged in the foulest depths of Hades. Once attached the blades remained so, chained and seared to the flesh, a part of the bearer's body. A permanent reminder of Kratos' pledge.",
+        "img": "https://www.placecage.com/200/300"
+      },
+      "Machete": {
+        "id": "product8",
+        "type": "type2",
+        "name": "Jason's Machete",
+        "description": "His name was Jason... and today, is his birthday...",
+        "img": "https://www.placecage.com/200/300"
+      },
+      "Thoridal": {
+        "id": "product9",
+        "type": "type3",
+        "name": "Thori'dal, the Stars' Fury",
+        "description": "The energy of the Sunwell courses through Thori'dal.",
+        "img": "https://www.placecage.com/200/300"
+      },
+      "Bow_of_the_Galadhrim": {
+        "id": "product11",
+        "type": "type3",
+        "name": "Bow of the Galadhrim",
+        "description": "The Bow of the Galadhrim was the gift Galadriel bestowed to Legolas.",
+        "img": "https://www.placecage.com/200/300"
+      },
+      "Arkbow": {
+        "id": "product12",
+        "type": "type3",
+        "name": "Arkbow",
+        "description": "The Arkbow is a magical artifact in possession of, and attuned to, the planeswalker Vivien Reid. It contains an invocation of every creature that ever lived on Skalla, and many more added on other planes.",
+        "img": "https://www.placecage.com/200/300"
+      },
+      "Avada_Kedavra": {
+        "id": "product13",
+        "type": "type4",
+        "name": "Avada Kedavra",
+        "description": "There can’t be anything worse than the Avada Kedavra Curse, can there? What’s worse than death?",
+        "img": "https://www.placecage.com/200/300"
+      },
+      "The_Elderspell": {
+        "id": "product14",
+        "type": "type4",
+        "name": "The Elderspell",
+        "description": "The path to power is often paved with atrocities.",
+        "img": "https://www.placecage.com/200/300"
+      },
+      "Urza's_Ruinous_Blast": {
+        "id": "product15",
+        "type": "type4",
+        "name": "Urza's Ruinous Blast",
+        "description": "Centuries ago, one man's vengeance plunged the world into ice and darkness.",
+        "img": "https://www.placecage.com/200/300"
+      },
+      "The_Colt": {
+        "id": "product16",
+        "type": "type5",
+        "name": "The Colt",
+        "description": "According to legend, anything shot by this gun, using one of its thirteen original bullets, will die, including supernatural creatures normally immune to any and all weapons.",
+        "img": "https://www.placecage.com/200/300"
+      },
+      "Fatman": {
+        "id": "product17",
+        "type": "type5",
+        "name": "Fatman",
+        "description": "The Fat Man is an effective mortar/artillery weapon that is capable of launching mini nukes which when fired, cause a small but devastating nuclear blast which destroys any enemies in the surrounding area",
+        "img": "https://www.placecage.com/200/300"
+      },
+      "Ebony_And_Ivory": {
+        "id": "product18",
+        "type": "type5",
+        "name": "Ebony, and Ivory",
+        "description": "Time to go to work, guys!",
+        "img": "https://www.placecage.com/200/300"
+      }
+  }]
+}
