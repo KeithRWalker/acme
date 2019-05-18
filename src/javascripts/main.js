@@ -1,7 +1,9 @@
 import '../styles/main.scss';
 
+import cards from './components/cards/cards';
+
 const init = () => {
-  console.error('JS LINKED');
+  cards.initCategories();
 };
 
 init();
