@@ -9,4 +9,13 @@ body{
 
 .card{
   background-color: gray;
+  margin: 2%;
+  padding: 1%;
+}
+
+.app{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  // align-content: space-around;
 }
