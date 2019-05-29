@@ -2,46 +2,25 @@ import categoriesData from '../../helpers/data/categoriesData';
 
 import typesData from '../../helpers/data/typesData';
 
-import productData from '../../helpers/data/productData';
+import products from '../products/products';
 
-import util from '../../helpers/util';
-
-const cardDisplay = (ar) => {
-  let cardSt = '';
-  ar.forEach((card) => {
-    cardSt += '<div class="card">';
-    cardSt += `<h1>${card.id}</ar>`;
-    cardSt += `<h1>${card.name}</h1>`;
-    cardSt += '</div>';
-  });
-  util.printToDom('app', cardSt);
-};
+const categoryArray = [];
 
 const initCategories = () => {
   categoriesData.loadCategories()
     .then((resp) => {
-      const catsA = resp.data.categories;
-      cardDisplay(catsA);
-    })
-    .catch(err => console.error('fuck', err));
+      typesData.getTypes(resp.data.categories);
+      // console.error(resp.data.categories[1].name); // Ranged!!!
+      // console.error(resp.data.categories[0].name); // Melee
+      categoryArray.push(resp.data.categories[0], resp.data.categories[1]);
+      return categoryArray;
+    });
 };
 
-const initTypes = () => {
-  typesData.loadTypes()
-    .then((resp) => {
-      const typesA = resp.data.types;
-      cardDisplay(typesA);
-    })
-    .catch(err => console.error('types fuck', err));
+const sortProducts = () => {
+  initCategories();
+  const returnedProducts = products.initProducts();
+  console.error(returnedProducts);
 };
 
-const initProducts = () => {
-  productData.getProducts()
-    .then((resp) => {
-      const allProducts = resp.data.products;
-      console.error(allProducts);
-    })
-    .catch(err => console.error('products FUCK', err));
-};
-
-export default { initCategories, initTypes, initProducts };
+export default { sortProducts };

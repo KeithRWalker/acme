@@ -1,11 +1,11 @@
 import '../styles/main.scss';
 
-import cards from './components/cards/cards';
+import products from './components/products/products';
+
 
 const init = () => {
-  cards.initCategories();
-  cards.initTypes();
-  cards.initProducts();
+  // cards.sortProducts();
+  products.initAll();
 };
 
 init();
