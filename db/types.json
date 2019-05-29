@@ -19,19 +19,19 @@
           "description": "Small, discreet, and deadly objects made for sneaking, stabbing, and all 'round devious purposes"
       },
       {
-        "id": "type0",
+        "id": "type3",
         "category": "category1",
         "name": "Bow/Arrows",
         "description": "Silent, and deadly objects made for solving problems you don't want to get near"
       },
       {
-        "id": "type1",
+        "id": "type4",
         "category": "category1",
         "name": "Spells",
         "description": "Deadly, and Ancient knowledge made only for the most enlightened individuals"
       },
       {
-        "id": "type2",
+        "id": "type5",
         "category": "category1",
         "name": "Guns",
         "description": "Devastatingly deadly weapons made to drop even the biggest of foes."
